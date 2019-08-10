@@ -6,6 +6,7 @@
 //  Copyright © 2019 Myron. All rights reserved.
 //
 
+// 优先队列
 struct PriorityQueue<Element: Equatable> {
     private var heap: Heap<Element>
     
