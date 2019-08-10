@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        var priorityQueue = PriorityQueue<Int>(order: >)
+        for i in 1...7 {
+            priorityQueue.enqueue(i)
+        }
+        
+        print("最大值先出队")
+        while !priorityQueue.isEmpty {
+            print(String(describing: priorityQueue.dequeue()))
+        }
     }
 
 

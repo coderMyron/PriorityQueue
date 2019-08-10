@@ -14,6 +14,8 @@
 		A137F5F322FF12F000353A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137F5F122FF12F000353A08 /* LaunchScreen.storyboard */; };
 		A137F5FE22FF12F000353A08 /* PriorityQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F5FD22FF12F000353A08 /* PriorityQueueTests.swift */; };
 		A137F60922FF12F000353A08 /* PriorityQueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F60822FF12F000353A08 /* PriorityQueueUITests.swift */; };
+		A137F61722FF131400353A08 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F61622FF131400353A08 /* Heap.swift */; };
+		A137F61922FF132F00353A08 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137F61822FF132F00353A08 /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A137F60422FF12F000353A08 /* PriorityQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriorityQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A137F60822FF12F000353A08 /* PriorityQueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueueUITests.swift; sourceTree = "<group>"; };
 		A137F60A22FF12F000353A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A137F61622FF131400353A08 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		A137F61822FF132F00353A08 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		A137F5E722FF12EF00353A08 /* PriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
+				A137F61622FF131400353A08 /* Heap.swift */,
 				A137F5E822FF12EF00353A08 /* AppDelegate.swift */,
 				A137F5EA22FF12EF00353A08 /* ViewController.swift */,
 				A137F5EC22FF12EF00353A08 /* Main.storyboard */,
 				A137F5EF22FF12F000353A08 /* Assets.xcassets */,
 				A137F5F122FF12F000353A08 /* LaunchScreen.storyboard */,
 				A137F5F422FF12F000353A08 /* Info.plist */,
+				A137F61822FF132F00353A08 /* PriorityQueue.swift */,
 			);
 			path = PriorityQueue;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A137F61722FF131400353A08 /* Heap.swift in Sources */,
+				A137F61922FF132F00353A08 /* PriorityQueue.swift in Sources */,
 				A137F5EB22FF12EF00353A08 /* ViewController.swift in Sources */,
 				A137F5E922FF12EF00353A08 /* AppDelegate.swift in Sources */,
 			);
@@ -439,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.PriorityQueue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.PriorityQueue;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
